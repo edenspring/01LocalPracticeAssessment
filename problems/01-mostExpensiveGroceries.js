@@ -13,6 +13,22 @@ sub-array with the highest cost.
 
 This problem is worth 7 points. It is possible to get partial points on 
 this problem.
+
+Examples:
+let groceriesA = ['cheese', 'butter', 'eggs'];
+let groceriesB = ['eggs', 'milk', 'bread', 'bread'];
+let groceriesC = ['cheese', 'bread'];
+let groceriesD = ['eggs', 'butter'];
+
+console.log(costOfGroceries(groceriesA));  // 8
+console.log(costOfGroceries(groceriesB));  // 13
+console.log(costOfGroceries(groceriesC));  // 9
+console.log(costOfGroceries(groceriesD));  // 3
+
+console.log(mostExpensiveGroceries([groceriesA, groceriesB, groceriesC, groceriesD])) // 1 
+console.log(mostExpensiveGroceries([groceriesA, groceriesD])) // 0 
+console.log(mostExpensiveGroceries([groceriesA, groceriesD, groceriesC])) // 2 
+
 ************************************************************************/
 
 // butter: $1
